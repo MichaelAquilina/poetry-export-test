@@ -8,6 +8,7 @@ authors = ["Michael Aquilina <michaelaquilina@gmail.com>"]
 python = "^3.8"
 ipdb = "^0.13.3"
 ipython = "^7.16.1"
+hypothesis = "^5.19.0"
 
 [tool.poetry.dev-dependencies]
 
