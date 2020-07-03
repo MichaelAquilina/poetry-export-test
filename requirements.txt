@@ -1,17 +1,17 @@
-appnope==0.1.0; python_version >= "3.4" and sys_platform == "darwin"
-backcall==0.2.0; python_version >= "3.4"
-colorama==0.4.3; python_version >= "3.4" and sys_platform == "win32"
-decorator==4.4.2; python_version >= "3.4"
+appnope==0.1.0; python_version >= "3.4" and sys_platform == "darwin" or sys_platform == "darwin"
+backcall==0.2.0
+colorama==0.4.3; python_version >= "3.4" and sys_platform == "win32" or sys_platform == "win32"
+decorator==4.4.2
 ipdb==0.13.3
-ipython==7.16.1; python_version >= "3.4"
+ipython==7.16.1
 ipython-genutils==0.2.0; python_version >= "3.4"
-jedi==0.17.1; python_version >= "3.4"
+jedi==0.17.1
 parso==0.7.0; python_version >= "3.4"
-pexpect==4.8.0; python_version >= "3.4" and sys_platform != "win32"
-pickleshare==0.7.5; python_version >= "3.4"
-prompt-toolkit==3.0.5; python_version >= "3.4"
+pexpect==4.8.0; python_version >= "3.4" and sys_platform != "win32" or sys_platform != "win32"
+pickleshare==0.7.5
+prompt-toolkit==3.0.5
 ptyprocess==0.6.0; python_version >= "3.4" and sys_platform != "win32"
-pygments==2.6.1; python_version >= "3.4"
+pygments==2.6.1
 six==1.15.0; python_version >= "3.4"
-traitlets==4.3.3; python_version >= "3.4"
+traitlets==4.3.3
 wcwidth==0.2.5; python_version >= "3.4"
